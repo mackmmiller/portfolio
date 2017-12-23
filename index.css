@@ -1,0 +1,84 @@
+html, body {
+  background-color: #F9F9F9; }
+
+body {
+  position: relative;
+  font-family: Georgia,Times,Times New Roman,serif; }
+
+nav {
+  background: #F9F9F9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  nav a {
+    color: black; }
+
+.about {
+  margin: 20px 0; }
+  .about .about-title {
+    text-align: center; }
+  .about .img {
+    display: block;
+    height: 400px;
+    background-color: blue; }
+
+.projects {
+  margin: 20px 0; }
+  .projects .card-deck .card {
+    margin: 10px auto; }
+
+.card-block .btn {
+  margin-bottom: 5px; }
+
+.resume {
+  margin: 20px 0;
+  display: flex; }
+  .resume .skills-title {
+    width: 100%;
+    text-align: center; }
+  .resume .skills {
+    height: 200px;
+    background-color: blue; }
+  .resume .container {
+    margin-top: 30px; }
+  .resume a {
+    margin: 30px auto; }
+
+.skill-header {
+  font-size: 18px;
+  display: inline-block; }
+
+.icon {
+  font-size: 4rem; }
+
+.contact {
+  margin: 20px 0; }
+  .contact .contact-title {
+    width: 100%;
+    text-align: center; }
+  .contact form {
+    padding-left: 25px; }
+    .contact form .name, .contact form .email {
+      width: 45%;
+      margin: 5px auto; }
+    .contact form .subject, .contact form .message {
+      width: 95%;
+      margin: 5px auto; }
+    .contact form .message {
+      height: 100px; }
+    .contact form .btn {
+      margin: auto; }
+
+footer {
+  background: #99E1D9; }
+  footer .icons {
+    padding-bottom: 0; }
+    footer .icons a {
+      color: #F9F9F9; }
+    footer .icons a:hover {
+      color: #1377D5; }
+  footer p {
+    color: #F9F9F9;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 24px; }
+
+/*# sourceMappingURL=index.css.map */
