@@ -1,12 +1,13 @@
-html, body {
-  background-color: #F9F9F9; }
+html,
+body {
+  background: #f9f9f9; }
 
 body {
   position: relative;
-  font-family: Georgia,Times,Times New Roman,serif; }
+  font-family: Georgia, Times, Times New Roman, serif; }
 
 nav {
-  background: #F9F9F9;
+  background: #f9f9f9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   nav a {
     color: black; }
@@ -25,6 +26,9 @@ nav {
   .projects .card-deck .card {
     margin: 10px auto; }
 
+.open-source-title {
+  width: 100%; }
+
 .card-block .btn {
   margin-bottom: 5px; }
 
@@ -42,6 +46,24 @@ nav {
   .resume a {
     margin: 30px auto; }
 
+.skill-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around; }
+  .skill-ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px; }
+  .skill-ul li:nth-child(1) {
+    align-self: center;
+    font-size: 1.5rem; }
+  .skill-ul li:nth-child(2) {
+    margin-left: auto; }
+
 .skill-header {
   font-size: 18px;
   display: inline-block; }
@@ -56,10 +78,12 @@ nav {
     text-align: center; }
   .contact form {
     padding-left: 25px; }
-    .contact form .name, .contact form .email {
+    .contact form .name,
+    .contact form .email {
       width: 45%;
       margin: 5px auto; }
-    .contact form .subject, .contact form .message {
+    .contact form .subject,
+    .contact form .message {
       width: 95%;
       margin: 5px auto; }
     .contact form .message {
@@ -68,17 +92,15 @@ nav {
       margin: auto; }
 
 footer {
-  background: #99E1D9; }
+  background: #99e1d9; }
   footer .icons {
     padding-bottom: 0; }
     footer .icons a {
-      color: #F9F9F9; }
+      color: #f9f9f9; }
     footer .icons a:hover {
-      color: #1377D5; }
+      color: #1377d5; }
   footer p {
-    color: #F9F9F9;
+    color: #f9f9f9;
     margin-bottom: 0;
     text-align: center;
     font-size: 24px; }
-
-/*# sourceMappingURL=index.css.map */

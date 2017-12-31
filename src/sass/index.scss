@@ -1,0 +1,144 @@
+html,
+body {
+  background: #f9f9f9;
+}
+
+body {
+  position: relative;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+nav {
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  a {
+    color: black;
+  }
+}
+
+.about {
+  margin: 20px 0;
+  .about-title {
+    text-align: center;
+  }
+  .img {
+    display: block;
+    height: 400px;
+    background-color: blue;
+  }
+}
+
+.projects {
+  margin: 20px 0;
+  .card-deck {
+    .card {
+      margin: 10px auto;
+    }
+  }
+}
+
+.open-source-title {
+  width: 100%;
+}
+
+.card-block {
+  .btn {
+    margin-bottom: 5px;
+  }
+}
+
+.resume {
+  margin: 20px 0;
+  display: flex;
+  .skills-title {
+    width: 100%;
+    text-align: center;
+  }
+  .skills {
+    height: 200px;
+    background-color: blue;
+  }
+  .container {
+    margin-top: 30px;
+  }
+  a {
+    margin: 30px auto;
+  }
+}
+
+.skill-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+  }
+  li:nth-child(1) {
+    align-self: center;
+    font-size: 1.5rem;
+  }
+  li:nth-child(2) {
+    margin-left: auto;
+  }
+}
+
+.skill-header {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+.contact {
+  margin: 20px 0;
+  .contact-title {
+    width: 100%;
+    text-align: center;
+  }
+  form {
+    padding-left: 25px;
+    .name,
+    .email {
+      width: 45%;
+      margin: 5px auto;
+    }
+    .subject,
+    .message {
+      width: 95%;
+      margin: 5px auto;
+    }
+    .message {
+      height: 100px;
+    }
+    .btn {
+      margin: auto;
+    }
+  }
+}
+
+footer {
+  background: #99e1d9;
+  .icons {
+    padding-bottom: 0;
+    a {
+      color: #f9f9f9;
+    }
+    a:hover {
+      color: #1377d5;
+    }
+  }
+  p {
+    color: #f9f9f9;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+}
