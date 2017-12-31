@@ -1,0 +1,26 @@
+.contact {
+  margin: 20px 0;
+  .contact-title {
+    width: 100%;
+    text-align: center;
+  }
+  form {
+    padding-left: 25px;
+    .name,
+    .email {
+      width: 45%;
+      margin: 5px auto;
+    }
+    .subject,
+    .message {
+      width: 95%;
+      margin: 5px auto;
+    }
+    .message {
+      height: 100px;
+    }
+    .btn {
+      margin: auto;
+    }
+  }
+}

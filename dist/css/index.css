@@ -26,8 +26,13 @@ nav {
   .projects .card-deck .card {
     margin: 10px auto; }
 
-.open-source-title {
+.projects-title {
+  text-align: center;
   width: 100%; }
+
+.open-source-title {
+  width: 100%;
+  text-align: center; }
 
 .card-block .btn {
   margin-bottom: 5px; }

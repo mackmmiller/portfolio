@@ -16,101 +16,68 @@ body(data-spy='scroll' data-target='.navbar' data-offset='500')
             li.nav-item
                 a.nav-link(href="#projects") Projects
             li.nav-item
-                a.nav-link(href="#resume") Skills
-            li.nav-item
                 a.nav-link(href="#open-source") Open Source
             li.nav-item
-                a.nav-link(href="#") Contact
+                a.nav-link(href="#resume") Skills
+            li.nav-item
+                a.nav-link(href="#contact") Contact
     main.container
-        section(class='about row')
+        section(class='about row' id='about')
             .col-5
                 h2.about-title About
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in lacus non urna mattis aliquam et ac sem. Proin aliquam cursus ligula, non accumsan justo gravida eu. Donec tristique sapien eget risus laoreet scelerisque. Nunc quis iaculis lacus, sit amet tristique nulla. Aenean pretium in quam ac fringilla. Duis laoreet bibendum justo. In pretium eros ac massa finibus, vitae interdum sem lacinia. Etiam tempus odio sit amet ligula imperdiet suscipit. Nullam risus ipsum, blandit eget facilisis imperdiet, tincidunt ac mauris.
+                h4.about-title.text-muted Solution Driven Development
+                p 
             div(class='img col-6 offset-1')
         section(class='projects row' id='projects')
-            h2 Projects
+            h2.projects-title Projects
+            h4.projects-title.text-muted Personal work and future unicorns
             .card-deck
-                .col-md-6
+                .col-xs-12.col-sm-12.col-md-6.col-lg-6.col-xl-4
                     div(class='card text-center')
                         .card-body
-                            h4.card-title This image is in the middle
-                            h6(class='card-subtitle mb-2 text-muted') Card subtitle
-                        img(src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22769%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20769%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1608207aa5c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A38pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1608207aa5c%22%3E%3Crect%20width%3D%22769%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22266.21875%22%20y%3D%22107.4%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Card image')
-                        .card-body
-                            p.card-text of a card.
+                            h4.card-title Pollster
+                            h6(class='card-subtitle mb-2 text-muted') Create, share, and vote on user created polls
+                            p.card-text of a card
+                            a(href='#' class='btn btn-primary') View Live
                             a(href='#' class='btn btn-secondary') Source Code
-                .col-md-6
+                .col-xs-12.col-sm-12.col-md-6.col-lg-6.col-xl-4
                     div(class='card text-center')
                         .card-body
-                            h4.card-title This image is in the middle
-                            h6(class='card-subtitle mb-2 text-muted') Card subtitle
-                        img(src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22769%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20769%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1608207aa5c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A38pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1608207aa5c%22%3E%3Crect%20width%3D%22769%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22266.21875%22%20y%3D%22107.4%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Card image')
-                        .card-body
+                            h4.card-title LaneLines
+                            h6(class='card-subtitle mb-2 text-muted') Manage swimming workouts and practices
                             p.card-text of a card.
+                            a(href='#' class='btn btn-primary') View Live
                             a(href='#' class='btn btn-secondary') Source Code
-                .col-md-6
+                .col-xs-12.col-sm-12.col-md-6.col-lg-6.col-xl-4
                     div(class='card text-center')
                         .card-body
-                            h4.card-title This image is in the middle
-                            h6(class='card-subtitle mb-2 text-muted') Card subtitle
-                        img(src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22769%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20769%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1608207aa5c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A38pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1608207aa5c%22%3E%3Crect%20width%3D%22769%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22266.21875%22%20y%3D%22107.4%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Card image')
-                        .card-body
+                            h4.card-title StudentOrg
+                            h6(class='card-subtitle mb-2 text-muted') The organization management application for student run organizations and clubs
                             p.card-text of a card.
-                            a(href='#' class='btn btn-secondary') Source Code
-                .col-md-6
-                    div(class='card text-center')
-                        .card-body
-                            h4.card-title This image is in the middle
-                            h6(class='card-subtitle mb-2 text-muted') Card subtitle
-                        img(src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22769%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20769%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1608207aa5c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A38pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1608207aa5c%22%3E%3Crect%20width%3D%22769%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22266.21875%22%20y%3D%22107.4%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Card image')
-                        .card-body
-                            p.card-text of a card.
-                            a(href='#' class='btn btn-secondary') Source Code
-                .col-md-6
-                    div(class='card text-center')
-                        .card-body
-                            h4.card-title This image is in the middle
-                            h6(class='card-subtitle mb-2 text-muted') Card subtitle
-                        img(src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22769%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20769%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1608207aa5c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A38pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1608207aa5c%22%3E%3Crect%20width%3D%22769%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22266.21875%22%20y%3D%22107.4%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Card image')
-                        .card-body
-                            p.card-text of a card.
-                            a(href='#' class='btn btn-secondary') Source Code
-                .col-md-6
-                    div(class='card text-center')
-                        .card-body
-                            h4.card-title This image is in the middle
-                            h6(class='card-subtitle mb-2 text-muted') Card subtitle
-                        img(src='data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22769%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20769%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1608207aa5c%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A38pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1608207aa5c%22%3E%3Crect%20width%3D%22769%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22266.21875%22%20y%3D%22107.4%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Card image')
-                        .card-body
-                            p.card-text of a card.
+                            a(href='#' class='btn btn-primary') View Live
                             a(href='#' class='btn btn-secondary') Source Code
         section(class='open-source row' id='open-source')
             h2(class='open-source-title') Open Source Contributions
+            h4(class='open-source-title text-muted') Learn through sharing
             .col-6
                 div(class='card text-center')
                     ul(class='list-group list-group-flush')
                         li.list-group-item
                             a(href="#") Contribution #1
-                        li.list-group-item
-                            a(href="#") Contribution #2
-                        li.list-group-item
-                            a(href="#") Contribution #3
-                        li.list-group-item
-                            a(href="#") Contribution #4
-                        li.list-group-item
-                            a(href="#") Contribution #5
             div(class='col-5 offset-1')
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tellus at lacus accumsan aliquam. Mauris semper, ipsum et molestie sollicitudin, sapien enim condimentum justo, nec condimentum tellus dolor sit amet elit. Nullam nec felis non justo fringilla aliquet. Sed euismod purus nec dolor volutpat malesuada. Sed non laoreet odio. Integer rhoncus, sem ac molestie viverra, metus tortor molestie sem, ac euismod mi odio ut tortor. Integer sit amet ante tristique, semper ligula gravida, convallis eros. Suspendisse dapibus, velit at condimentum ultricies, mi diam imperdiet eros, id fringilla ipsum enim id nunc. Praesent felis ipsum, tristique vel aliquam elementum, vestibulum id libero. Morbi in vehicula elit.
+                p Open source is how I learned to program. It provided me with countless volumes of reading material, a wealth of projects looking for a learning hand, and a stage to present myself and listen to criticism.
+                p It's only right that I give back to the community that made me.
         section(class='resume row' id='resume')
             h2(class='skills-title') Skills & CV
+            h4.skills-title.text-muted My tools of choice
             div(class='container col-md-10 mx-auto')
                 .row
                     ul.skill-ul
                         li Frontend
                         li
-                            i(class='icon devicon-html5-plain-wordmark colored')
-                        li
                             i(class='icon devicon-javascript-plain colored')
+                        li
+                            i(class='icon devicon-html5-plain-wordmark colored')
                         li
                             i(class='icon devicon-css3-plain-wordmark colored')
                         li
@@ -146,8 +113,15 @@ body(data-spy='scroll' data-target='.navbar' data-offset='500')
             a(href='#' class='btn btn-primary') Download My Resume
         section(class='contact row' id='contact')
             h2.contact-title Contact
-            p.col-6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in lacus non urna mattis aliquam et ac sem. Proin aliquam cursus ligula, non accumsan justo gravida eu. Donec tristique sapien eget risus laoreet scelerisque. Nunc quis iaculis lacus, sit amet tristique nulla. Aenean pretium in quam ac fringilla. Duis laoreet bibendum justo. In pretium eros ac massa finibus, vitae interdum sem lacinia. Etiam tempus odio sit amet ligula imperdiet suscipit. Nullam risus ipsum, blandit eget facilisis imperdiet, tincidunt ac mauris.
-            form(action='' class='col-6')
+            h4.contact-title.text-muted Getting in touch
+            .col-5.offset-1
+                p If you'd like to work together, or just want to share ideas over a coffee, send me an email. I'm always looking for promising and interesting opportunities.<br><br>I'm currently open to:
+                ul
+                    li Full time positions
+                    li Freelance work
+                    li Collaborations
+                    
+            form(action='' class='col-5')
                 .row
                     input(class='form-control name' type='text' placeholder='Name')
                     input(class='form-control email' type='text' placeholder='Email')
@@ -166,6 +140,6 @@ body(data-spy='scroll' data-target='.navbar' data-offset='500')
             a(href='https://twitter.com/MackMMiller?lang=en' class='p-2')
                 i(class='fab fa-twitter fa-2x')
             a(href='https://www.freecodecamp.org/mackmmiller' class='p-2')
-                i(class='fab fa-free-code-camp')
+                i(class='fab fa-free-code-camp fa-2x')
         p Developed by Mackenzie Miller
         
